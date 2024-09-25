@@ -1,5 +1,7 @@
 Experimental research project on pedestrian evacuation using Minecraft.<br />We used the NetEase-represented Minecraft version and purchased a server to build the experiment platform, which could support up to 40 simultaneous participants. ([https://mc.163.com](https://mc.163.com)), Minecraft version 1.12.2 (Java version)<br />If you want to test, you can search for the rental service game by server number within the launcher: 93662216, room password: 123456
-
+<br/>
+<br/>
+The videos of experiments are stored on a cloud drive: https://drive.google.com/drive/folders/1Fv4JF73lUDuWj0Tx_hIhfKCemWqZCUFV?usp=drive_link
 <a name="Wnvtp"></a>
 ### Getting Start
 Clone this project. This is the logical code for MCTrack to extract data and calculate relative coordinates, containing the functions:
@@ -24,7 +26,7 @@ Clone this project. This is the logical code for MCTrack to extract data and cal
 <a name="Kz840"></a>
 #### 1. Extracting coordinate data
 <a name="umoRI"></a>
-#### 1.1 Introduction to the experimental video
+#### 1.1 Introduction to the experiment video
 The experiment uses two viewpoints to record the video, the participant uses the first-person viewpoint and the researcher uses the top-down viewpoint.<br />The participant's viewpoint (left) obtains the real-time coordinates of the character by calling the debugging interface, so the study can achieve accurate trajectory tracking by extracting the coordinate data<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/22618877/1681627759520-d826b906-38f8-464d-aa2e-722c863a3cc9.png#averageHue=%231c6a77&clientId=u07c89d2b-a828-4&from=paste&height=321&id=uedd0a988&originHeight=321&originWidth=906&originalType=binary&ratio=1&rotation=0&showTitle=false&size=571284&status=done&style=none&taskId=u4fcf20dd-c2d8-4dfd-a63b-be52e368641&title=&width=906)
 <a name="QWcts"></a>
 #### 1.2 Coordinate extraction - implemented using the get_location module:
@@ -37,13 +39,9 @@ The experiment uses two viewpoints to record the video, the participant uses the
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/22618877/1681629880208-449eeb92-a20f-4b04-a00b-22bc120b1891.png#averageHue=%233e3125&clientId=u07c89d2b-a828-4&from=paste&height=892&id=u03f12de6&originHeight=892&originWidth=800&originalType=binary&ratio=1&rotation=0&showTitle=false&size=330141&status=done&style=none&taskId=uf48a17de-277c-4b93-a679-9f71ef1be51&title=&width=800)
 <a name="B9OiO"></a>
-#### 2. Data analysis
 
-1. calculate_velocaty.py: Calculate the instantaneous velocity of each person in the experiment
-2. draw_track: plot the experiment trajectory
-3. remain_peo: calculate the number of people left in the room
 <a name="Ufx7M"></a>
-### Experimental process
+### Experiment process
 <a name="IP2IE"></a>
 #### 1. Interface settings
 Please maximize the game interface<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/22618877/1669187627058-e39e0010-a3d8-4536-9a45-3bc1c1b1211f.png#averageHue=%233a4641&clientId=ufd09b4ab-7a15-4&from=paste&height=557&id=J9JCI&originHeight=1080&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=382954&status=done&style=stroke&taskId=u62ee0892-b942-4213-bbc5-83a3219674b&title=&width=990)
