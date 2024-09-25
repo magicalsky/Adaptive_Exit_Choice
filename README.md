@@ -1,4 +1,5 @@
-Experimental research project on pedestrian evacuation using Minecraft.<br />We used the NetEase-represented Minecraft version and purchased a server to build the experiment platform, which could support up to 40 simultaneous participants. ([https://mc.163.com](https://mc.163.com)), Minecraft version 1.12.2 (Java version)<br />If you want to test, you can search for the rental service game by server number within the launcher: 93662216, room password: 123456
+Experiment research project on adaptive exit choices of pedestrians.
+<br />We used the NetEase-represented Minecraft version and purchased a server to build the experiment platform, which could support up to 40 simultaneous participants. ([https://mc.163.com](https://mc.163.com)), Minecraft version 1.12.2 (Java version)<br />If you want to test, you can search for the rental service game by server number within the launcher: 93662216, room password: 123456
 <br/>
 <br/>
 The videos of experiments are stored on a cloud drive: https://drive.google.com/drive/folders/1Fv4JF73lUDuWj0Tx_hIhfKCemWqZCUFV?usp=drive_link
